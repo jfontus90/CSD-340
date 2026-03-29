@@ -1,2 +1,5 @@
-# CSD-340
-340-300 Web development with HTML
+# CSD-340 Web Development with HTML and CSS
+## Contributors
+
+-Professor Bailey
+-Jasmine Fontus
