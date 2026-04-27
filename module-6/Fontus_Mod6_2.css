@@ -1,0 +1,109 @@
+/* Page background */
+body {
+    background-color: #DBFFEA; /* Mint Green */
+    color: #333333; /* Dark Gray text */
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #A0F2DE; /* Teal Mint */
+    color: #333333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* h1 */
+h1 {
+    font-weight: 400;
+}
+
+/* Navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #4A90E2; /* Blue */
+    border-bottom: 15px solid #A0F2DE;
+}
+
+/* Navbar links */
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Hover effect */
+#navbar a:hover {
+    background-color: #DBF1FF; /* Soft Sky Blue */
+    color: #333333;
+}
+
+/* Container */
+#container {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+
+/* Card */
+.card {
+    background-color: #DBFFDE; /* Light Green */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+}
+
+/* Card hover */
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Card title */
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #4A90E2; /* Blue */
+    font-weight: 400;
+}
+
+/* Card content */
+.card-content {
+    padding: 2px 16px;
+}
+
+/* Links inside content */
+.card-content a {
+    color: #4A90E2;
+}
+
+/* Footer */
+footer {
+    background-color: #A0F2DE; /* Same as header */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Footer text */
+footer p {
+    color: #333333;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+/* Footer link */
+footer a {
+    text-decoration: none;
+    color: #4A90E2;
+}
+
+/* Footer hover */
+footer a:hover {
+    text-decoration: underline;
+}
