@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 2% 5% 100px 5%;
+}
+
+.card {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-content {
+    font-size: 16px;
+}
+
+/* MOVIES TABLE */
+#movies {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#movies th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+#movies td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* FOOTER */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: left;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
