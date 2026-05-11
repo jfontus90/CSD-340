@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+
+    <script>
+        // JavaScript variables for span replacement
+        var word1 = "journey";
+        var word2 = "uncertainty";
+        var word3 = "strength";
+        var word4 = "future";
+
+        function fillWord1() {
+            document.getElementById("span1").innerHTML = word1;
+        }
+
+        function fillWord2() {
+            document.getElementById("span2").innerHTML = word2;
+        }
+
+        function fillWord3() {
+            document.getElementById("span3").innerHTML = word3;
+        }
+
+        function fillWord4() {
+            document.getElementById("span4").innerHTML = word4;
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>Assignment 9.3: JavaScript - Part 1</h1>
+
+    <p>
+        My life has been a long <span id="span1">__________</span> filled with growth, responsibility, and change.
+        <button onclick="fillWord1()">Fill Word</button>
+    </p>
+
+    <p>
+        As a DACA recipient originally from Haiti, I have lived in the United States for most of my life,
+        working hard and helping raise a family while navigating <span id="span2">__________</span> about the future.
+        At times, that uncertainty has affected my mental health and how I view stability in my life.
+        <button onclick="fillWord2()">Fill Word</button>
+    </p>
+
+    <p>
+        Even with those challenges, I continue to push forward. I focus on building <span id="span3">__________</span>
+        within myself and staying committed to becoming better each day.
+        <button onclick="fillWord3()">Fill Word</button>
+    </p>
+
+    <p>
+        No matter what happens, I am determined to keep working toward a better <span id="span4">__________</span>
+        for myself and my family.
+        <button onclick="fillWord4()">Fill Word</button>
+    </p>
+
+</body>
+</html>
